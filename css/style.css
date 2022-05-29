@@ -1,0 +1,45 @@
+.flex{
+  color: mediumblue;
+}
+
+.card__content-tag-item {
+  display: inline-block;
+  color: #1d20c8;
+  font-size: 20px auto;
+}
+
+.card__content-tag-item--last {
+  display: inline-block;
+  
+  margin-left: 75%;
+  color: #1d20c8;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  position: absolute;
+  z-index: 100;
+  width: 40%;
+ left: 60%;
+ top: 170px;
+
+}
+
+.absolute {
+  position: relative;
+
+  width: 70%;
+  height: 150px;
+  top: 600px;
+    background-color: rgb(68, 0, 255);
+    z-index: 0;
+}
+
+.ttl{position: absolute;
+  top: 550px;
+  font-size: 50px;
+
+}
