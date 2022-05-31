@@ -1,17 +1,17 @@
-.flex{
+.flex{display: flex;
+  flex-direction: row;
   color: mediumblue;
 }
 
 .card__content-tag-item {
-  display: inline-block;
+  display: flex;
   color: #1d20c8;
   font-size: 20px auto;
 }
 
 .card__content-tag-item--last {
-  display: inline-block;
-  
-  margin-left: 75%;
+  display: row;
+  margin-left: 70%;
   color: #1d20c8;
 }
 
@@ -19,27 +19,24 @@
   position: relative;
 }
 
-.relative__img {
-  position: absolute;
+.relative__img {position: relative;
   z-index: 100;
-  width: 40%;
- left: 60%;
- top: 170px;
-
+  max-width: 700px;
+  max-height:  400px;
+  margin: 100px 750px auto;
 }
 
 .absolute {
-  position: relative;
-
+  position: absolute;
   width: 70%;
   height: 150px;
-  top: 600px;
+  top: 450px;
     background-color: rgb(68, 0, 255);
     z-index: 0;
 }
 
 .ttl{position: absolute;
-  top: 550px;
+  top: 400px;
   font-size: 50px;
 
 }
