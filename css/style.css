@@ -11,32 +11,37 @@
 
 .card__content-tag-item--last {
   display: row;
-  margin-left: 70%;
+  margin-left: 600px;
   color: #1d20c8;
 }
 
 .relative {
+  max-width: 1000px;
   position: relative;
 }
 
 .relative__img {position: relative;
   z-index: 100;
-  max-width: 700px;
+  width: 500px;
   max-height:  400px;
-  margin: 100px 750px auto;
+  margin: 150px 500px auto;
 }
 
 .absolute {
   position: absolute;
-  width: 70%;
+  width: 700px;
   height: 150px;
-  top: 450px;
+  top: 385px;
     background-color: rgb(68, 0, 255);
     z-index: 0;
 }
 
 .ttl{position: absolute;
-  top: 400px;
+  top: 335px;
   font-size: 50px;
 
+}
+
+* {
+  outline: 1px solid red !important;
 }
