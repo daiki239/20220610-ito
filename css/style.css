@@ -11,37 +11,33 @@
 
 .card__content-tag-item--last {
   display: row;
-  margin-left: 600px;
+  margin-left: 75%;
   color: #1d20c8;
 }
 
 .relative {
-  max-width: 1000px;
+  max-width: 70%;
   position: relative;
 }
 
 .relative__img {position: relative;
   z-index: 100;
-  width: 500px;
-  max-height:  400px;
-  margin: 150px 500px auto;
+  width: 50%;
+  top: 200px;
+  margin: 20% 100% auto;
 }
 
 .absolute {
   position: absolute;
-  width: 700px;
-  height: 150px;
-  top: 385px;
+  width: 120%;
+  height: 45%;
+  top: 110%;
     background-color: rgb(68, 0, 255);
     z-index: 0;
 }
 
 .ttl{position: absolute;
-  top: 335px;
+  top: 100%;
   font-size: 50px;
 
-}
-
-* {
-  outline: 1px solid red !important;
 }
