@@ -123,13 +123,18 @@ h6{
     display: flex;
     color: fuchsia;
 }
+
+
 .servicettl {
   margin-left: 60vh;
   color: hsla(240, 1%, 41%, 0.881);
   margin-left: 60vh;
   font-size: 25px;
 }
+.BOX{display: flex;
+  flex-direction: row;
 
+}
 .box__A{display: flex;
 flex-direction: row;}
 
@@ -140,24 +145,51 @@ flex-direction: row;}
   margin-left: 20%;
   position: relative;
 }
+.box1__img{width: 70%;
+  margin-left: 20%;
 
+}
 .box1{
-  position: relative;
-    margin-left: 10%;
-    width: 30%;
-    height: 50vh;
+    margin-left: 1px;
+    width: 100%;
+    height: 100%;
     background: #d70d97
   
   }
+.sample {
+      color: #fff;
+      padding: 70px;
+      margin: 10px 30px;
+    }
+.kyoiku {
+      margin-left: 150px;
+      color: #fff;
+      font-size: 20px;
+    }
+  .box__B{display: flex;
+    flex-direction: column;
 
-  .box2{
-      position: relative;
-        
-        width: 30%;
-        height: 50vh;
-        background: #a6297e
   }
+  .box2{margin-left: 1px;
+    width: 100%;
+    height: 50%;
+    background: #a6297e
+  }
+.box2__img{width: 20%;
+  margin: 30px 30px;
 
+}
+
+.kyoiku2{color: #fff;
+  font-size: 20px;
+margin: -70px 300px;
+}
+
+.sample2 {
+  color: #fff;
+  
+  margin: 100px 300px;
+}
 .box3{position: relative;
   
   width: 30%;
@@ -166,17 +198,9 @@ flex-direction: row;}
 
 }
 
-.kyoiku{
-  position: absolute;
- margin: 55% 40%;
- color: #fff;
-}
 
-.sample{
-  color: #fff;
-  position: absolute;
-    margin: 60% 15%;
-}
+
+
 
 .relative3__img{
  position: absolute; 
@@ -382,3 +406,4 @@ small{margin-left: 60vh;
   background-color: #bbbbbb;
   width: 100%;
 }
+
