@@ -134,7 +134,7 @@ h6{
    margin: 0 auto;
   display: block;
   margin-top: 10vh;
-   width: 20px;
+   width: 100px;
     color: fuchsia;
 }
 
@@ -142,10 +142,10 @@ h6{
 .servicettl {
 margin: 0 auto;
   display: block;
-  margin-top: 10vh;
-  width: 20px;
+  width: 200px;
+  margin-top: 10px;
   color: hsla(240, 1%, 41%, 0.881);
-  margin-left: 60vh;
+  
   font-size: 25px;
 }
 .BOX {
