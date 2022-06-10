@@ -158,7 +158,7 @@ margin: 0 auto;
 }
 .BOX {margin: 0 auto;
   display: block;
-  width: 1500px;
+  width: 100%;
   display: flex;
   flex-direction: row;
 
@@ -179,7 +179,7 @@ margin: 0 auto;
 }
 
 .box1 {
-  
+  margin-left: 10vh;
   width: 100%;
   height: 100%;
   background: #d70d97
