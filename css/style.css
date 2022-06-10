@@ -94,11 +94,11 @@ h4{
     border-radius: 50px;
     }
 
-.ttl3{max-width: 50%;
+.ttl3{
 position: relative;
 }
 
-h5{margin: auto;
+h5{margin: 0 auto;
   display: block;
   width: 10px;
     color: fuchsia;
@@ -110,36 +110,40 @@ h5{margin: auto;
   font-size: 25px;
 }
 
-.setumei{position: absolute;
+.setumei{
   margin-top: 20px;
  margin-left: 30vh;
 color: hsla(240, 1%, 41%, 0.881);
 }
 
 .setumei2{position: absolute;
-margin-top: 10%;
+ margin-top: 5%;
   margin-left: 30vh;
   color: hsla(240, 1%, 41%, 0.881);
 }
 
 .about__img{
   width:35%;
-  margin-left:  100%;
+  margin-left: 50%;
 }
 
 .ttl4{
 max-width: 100%;  
 }
 h6{
-  margin-left: 60vh;
+   margin: 0 auto;
+  display: block;
   margin-top: 10vh;
-    display: flex;
+   width: 20px;
     color: fuchsia;
 }
 
 
 .servicettl {
-  margin-left: 60vh;
+margin: 0 auto;
+  display: block;
+  margin-top: 10vh;
+  width: 20px;
   color: hsla(240, 1%, 41%, 0.881);
   margin-left: 60vh;
   font-size: 25px;
@@ -286,13 +290,17 @@ margin-left: 300px;
   margin: 10vh;
 }
 
-.blogA{margin-left: 80vh;
-  display: flex;
+.blogA{margin: 0 auto;
+  display: block;
+  margin-top: 10vh;
+  width: 500px;
   color: fuchsia;
 
 }
 .blogB {
-  margin-left: 80vh;
+  margin: 0 auto;
+    display: block;
+    width: 500px;
     color: hsla(240, 1%, 41%, 0.881);
     font-size: 25px; 
 
@@ -365,8 +373,20 @@ margin-left: 300px;
     margin: 2% 50%;
 }
 
-.flex4{margin-left: 40%;
+.flex4{margin: 0 auto;
+  display: block;
+  margin-top: 10vh;
+width: 500px;
 
+}
+.company{
+ color: #d70d97; 
+}
+tbody{
+  margin: 0 auto;
+    display: block;
+    margin-top: 10vh;
+   
 }
 th,
 td {
