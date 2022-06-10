@@ -95,20 +95,21 @@ h4{
       border-radius: 50px;
     }
 
-.ttl3{max-width: 50%;
+.ttl3{
+  max-width: 50%;
 position: relative;
 
 }
 
-h5{margin-left: 100%;
-  margin-top: 50px;
-  display: flex;
+h5{
+  margin: auto;
+  display: block;
     color: fuchsia;
 }
-.tech{
+.tech{margin: auto;
+  display: block;
   color: hsla(240, 1%, 41%, 0.881);
-  margin-left: 70vh;
-margin-top: 10px;
+  
   font-size: 25px;
 }
 
