@@ -100,10 +100,12 @@ position: relative;
 
 h5{margin: auto;
   display: block;
+  width: 10px;
     color: fuchsia;
 }
 .tech{margin: auto;
   display: block;
+   width: 100px;
   color: hsla(240, 1%, 41%, 0.881);
   font-size: 25px;
 }
