@@ -111,21 +111,28 @@ h5{margin: 0 auto;
 }
 
 .setumei{
-  margin-top: 20px;
+  margin-top: 5%;
  margin-left: 20vh;
+ font-size: 20px;
 color: hsla(240, 1%, 41%, 0.881);
 }
 
-.setumei2{position: absolute;
+.setumei2{
  margin-top: 5%;
   margin-left: 20vh;
+  font-size: 20px;
   color: hsla(240, 1%, 41%, 0.881);
 }
 
 .about__img{
   width:35%;
-  margin-top: 1vh;
-  margin-left: 80vh;
+  margin-top: -5%;
+  margin-left: 50vh;
+}
+
+.about{
+  display: flex;
+    flex-direction: row;
 }
 
 .ttl4{
@@ -149,7 +156,9 @@ margin: 0 auto;
   
   font-size: 25px;
 }
-.BOX {
+.BOX {margin: 0 auto;
+  display: block;
+  width: 1500px;
   display: flex;
   flex-direction: row;
 
